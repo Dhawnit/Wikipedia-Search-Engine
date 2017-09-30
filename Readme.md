@@ -8,7 +8,7 @@ Wikipedia search engine was implemented over a wiki dump of around 64 GB. Key ch
 4. Stop words removal - Wordnet (http://www.d.umn.edu/~tpederse/Group01/WordNet/words.txt)
 5. Stemming - Porter stemmer (http://tartarus.org/martin/PorterStemmer/java.txt)
 6. Posting List / Inverted Index creation 
-7. Fetch documents by query (Tfidf rank)
+7. Fetch documents by query (Tf-idf rank)
 
 ### Term Field Abbreviations:
 I - Infobox <br/>
@@ -21,7 +21,7 @@ C - Category <br/>
 ### Compile and Run:
 Compile all .java files and run as below
 ```
-sudo java -DentityExpansionLimit=2147480000 -DtotalEntitySizeLimit=2147480000 -Djdk.xml.totalEntitySizeLimit=2147480000 SearchEngine 						=> Creates index on 62 GB dump
+sudo java -DentityExpansionLimit=2147480000 -DtotalEntitySizeLimit=2147480000 -Djdk.xml.totalEntitySizeLimit=2147480000 SearchEngine => Creates index on 62 GB dump
 
 java TitleIndexer => Creates Secondary index for DocumentID to Title map.
 
