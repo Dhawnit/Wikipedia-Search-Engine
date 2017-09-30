@@ -2,6 +2,7 @@
 
 
 ### Compile and Run:
+Compile all .java files and run as below
 ```
 sudo java -DentityExpansionLimit=2147480000 -DtotalEntitySizeLimit=2147480000 -Djdk.xml.totalEntitySizeLimit=2147480000 SearchEngine 						=> Creates index on 62 GB dump
 
