@@ -1,7 +1,7 @@
 # Wikipedia-Search-Engine
 Wikipedia search engine was implemented over a wiki dump of around 64 GB. Key challenge in this project was to implement multi level data indexing to provide on demand search results in memory through disk reads.
 
-Features included:
+### Features included:
 1. XML Parsing - Used default SAX parser from Java SE. 
 2. Tokenization - Hand-coded tokenizer (without using regular expressions)
 3. Case folding - All tokens changed to lower case.
@@ -10,13 +10,13 @@ Features included:
 6. Posting List / Inverted Index creation 
 7. Fetch documents by query (Tfidf rank)
 
-Term Field Abbreviations:
-I - Infobox
-B - Body
-T - Title
-L - External Link
-R - References
-C - Category
+### Term Field Abbreviations:
+I - Infobox <br/>
+B - Body <br/>
+T - Title <br/>
+L - External Link <br/>
+R - References <br/>
+C - Category <br/>
 
 ### Compile and Run:
 Compile all .java files and run as below
